@@ -2,11 +2,11 @@
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 
   crops = Crop.create([
-    { name: 'Cosmos', variety: 'Velouette', sow_by: '2019-03-15', harvest:, days_to_harvest:, number_of_beds: 1, notes: '', img_url: }, 
-    { name: 'Cosmos', variety: 'Velouette', sow_by: '2019-03-15', harvest:, days_to_harvest:, number_of_beds: 1, notes: '', img_url: },
-    {},
-    {},
-    {},
-    {},
-    {}
+    { name: 'Cosmos', variety: 'Velouette', harvest: 'June through October', days_to_harvest: 50, number_of_beds: 3, notes: 'Beautiful red and white striped flowers with long stems.', img_url: 'https://www.rareseeds.com/assets/1/14/DimLarge/Velouette.jpg', sow_by: Date.parse('2019-03-15') }, 
+    { name: 'Serrano', variety: 'Sugar Rush', harvest: 'late July through September', days_to_harvest: 90, number_of_beds: 1, notes: 'The long, peach colored fruits are packed with loads of super sweet, tropical flavor, and the seeds bring a smokey, complex heat.', img_url: 'https://www.rareseeds.com/assets/1/14/DimLarge/Pepper-Sugar-Rush-Peach-MA-IMG_1406.jpg', sow_by: Date.parse('2019-03-01') },
+    { name: 'Jalapeno', variety: 'Lemon Spice', harvest: 'late July through September', days_to_harvest: 90, number_of_beds: 1, notes: 'Great for mixed bed or container planting.', img_url: 'https://www.rareseeds.com/assets/1/14/DimLarge/spice-jalapeno-pepper-series.jpg', sow_by: Date.parse('2019-03-01') },
+    { name: 'Tomato', variety: 'Green Zebra', harvest: 'late June through early October', days_to_harvest: 80, number_of_beds: 2, notes: 'Yield is excellent.', img_url: 'https://www.rareseeds.com/assets/1/14/DimLarge/green-zebra-tomato.jpg', sow_by: Date.parse('2019-03-15') },
+    { name: 'Borage', variety: 'Baby Blue Borage', harvest: 'mid June through early October', days_to_harvest: 60, number_of_beds: 1, notes: 'Cucumber-flavored fresh leaves are added to salads, cooked, or made into a cooling drink.', img_url: 'https://www.rareseeds.com/assets/1/14/DimLarge/Flower-Borage-DSC07150-enhanced.jpg', sow_by: Date.parse('2019-04-15') },
+    { name: 'Eggplant', variety: 'Rosita', harvest: 'July through late September', days_to_harvest: 120, number_of_beds: 1, notes: 'The skin is tender and not bitter. Produces excellent yields.', img_url: 'https://www.rareseeds.com/assets/1/14/DimRegular/eggplant-rosita-2011-IMG_8846.jpg', sow_by: Date.parse('2019-03-01') },
+    { name: 'Greens', variety: 'Oriental Purple Bok Choi', harvest: 'mid June through early October', days_to_harvest: 80, number_of_beds: 2, notes: 'A beautiful variety, the antioxidant-rich plum colored leaves really pop against the lime green stems.', img_url: 'https://www.rareseeds.com/assets/1/14/DimLarge/Greens-Oriental-Purple-Baby-Bok-Choi-LSS-DSC_7479.jpg', sow_by: Date.parse('2019-04-01') }
   ])
